@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script type="text/javascript" src="ejemplo.js" ></script>
+	<title></title>
+</head>
+<body>
+   <div class="contenedor">
+         <h2>Formulario de Registro</h2>
+        <form>
+             <div class="relleno">
+                 <div class="col_se">
+                      <input class="campos" id="nombre" type="text" placeholder="Nombre...">
+                 </div>
+                 <div class="col 50">
+                      <input class="campos" id="apellido" type="text" placeholder="Apellido...">
+                 </div>
+                 <div class="col 180">
+                      <input class="campos" id="email" type="text" placeholder="Email...">
+                 </div>
+                 <button id="btnAgregar" class="btn" type="button">Agregar</button>
+             </div>
+        </form>
+    </div>
+    <h2 style="text-align: center;">Clientes Registrados</h2>
+    <table id="tablausuarios" class="tabla">
+        <thead>
+             <tr>
+                 <th> ID</th>
+                 <th>Nombre</th>
+                 <th>Apellido</th>
+                 <th>Email</th>
+                 <th>Eliminar</th>
+             </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>
