@@ -38,7 +38,7 @@ private:
 #include "notas.h"
 #include <iostream>
 using namespace std;
-notas::notas(int _nombre,int _cui,int _nota1,int _nota2,int _nota3){
+notas::notas(string _nombre,int _cui,int _nota1,int _nota2,int _nota3){
 cui=_cui;
 nombre=_nombre;
 nota1=_nota1;
