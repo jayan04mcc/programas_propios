@@ -46,9 +46,6 @@ nota2=_nota2;
 nota3=_nota3;
 
 }
-{
-    //ctor
-}
 
 notas::~notas()
 {
