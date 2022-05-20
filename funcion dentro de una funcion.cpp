@@ -31,7 +31,7 @@ void suma_impares(bool comprobar,int valor){
     cout<<sum;
     }
     else if(comprobar==false){
-        cout<<"no procede porq el num es impar";
+        cout<<"numero invalido";
     }
 
 }
@@ -39,23 +39,10 @@ void suma_impares(bool comprobar,int valor){
 
 int main(){
 int val;
+int p1=valor(val);
+bool p2=comprobar(p1);
 
-//suma_impares(comprobar(valor(val)),valor(val));
-
-cout<<"\t";
-for(int i=1;i<=10;i++){
-    cout<<i<<"\t";
-}
-cout<<endl<<endl;
-for(int j=1;j<=10;j++){
-    cout<<j<<"\n";
-
-    cout<<"\t";
-    for(int k=1;k<=10;k++){
-        cout<<j*k<<"\t";
-    }
-    cout<<endl;
-}
+suma_impares(p2,p1);
 
 
 }
